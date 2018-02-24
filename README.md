@@ -1,5 +1,7 @@
 # Tmux Tet
 
+![](screenshot.png)
+
 Let's count the number of days until Tet holiday in order to make yourself more
 motivated.
 
