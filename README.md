@@ -46,7 +46,7 @@ Reload TMUX environment:
 
 ### License
 
-[MIT](LICENSE.md)
+[MIT](LICENSE)
 
 ### Thanks
 
