@@ -3,7 +3,7 @@
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 tet_interpolation_count="#($CURRENT_DIR/scripts/tet.sh)"
-tet_interpolation_string="\#{online_status}"
+tet_interpolation_string="\#{tet}"
 
 source $CURRENT_DIR/scripts/shared.sh
 
