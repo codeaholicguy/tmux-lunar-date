@@ -7,4 +7,5 @@ source $CURRENT_DIR/shared.sh
 main() {
   printf "1 Year to Tet"
 }
+
 main

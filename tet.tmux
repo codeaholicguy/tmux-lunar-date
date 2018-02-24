@@ -3,13 +3,13 @@
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 tet_status="#($CURRENT_DIR/scripts/tet.sh)"
-tet_interpolation_string="\#{tet}"
+tet_status_interpolation_string="\#{tet}"
 
 source $CURRENT_DIR/scripts/shared.sh
 
 do_interpolation() {
   local string="$1"
-  local interpolated="${string/$tet_interpolation_string/$tet_status}"
+  local interpolated="${string/$tet_status_interpolation_string/$tet_status}"
   echo "$interpolated"
 }
 
@@ -24,4 +24,5 @@ main() {
   update_tmux_option "status-right"
   update_tmux_option "status-left"
 }
+
 main
