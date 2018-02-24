@@ -2,14 +2,14 @@
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-tet_interpolation_count="#($CURRENT_DIR/scripts/tet.sh)"
+tet_status="#($CURRENT_DIR/scripts/tet.sh)"
 tet_interpolation_string="\#{tet}"
 
 source $CURRENT_DIR/scripts/shared.sh
 
 do_interpolation() {
   local string="$1"
-  local interpolated="${string/$tet_interpolation_string}/$tet_interpolation_count"
+  local interpolated="${string/$tet_interpolation_string/$tet_status}"
   echo "$interpolated"
 }
 
