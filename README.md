@@ -31,8 +31,7 @@ Add plugin to the list of TPM plugins in `.tmux.conf`:
 
 Hit `prefix + I` to fetch the plugin and source it.
 
-`#{tet}` interpolation should now work.
-`#{lunar_date}` interpolation should now work.
+`#{tet}` and `#{lunar_date}` interpolation should now work.
 
 ### Manual Installation
 
@@ -49,8 +48,7 @@ Reload TMUX environment:
     # type this in terminal
     $ tmux source-file ~/.tmux.conf
 
-`#{tet}` interpolation should now work.
-`#{lunar_date}` interpolation should now work.
+`#{tet}` and `#{lunar_date}` interpolation should now work.
 
 ### License
 
