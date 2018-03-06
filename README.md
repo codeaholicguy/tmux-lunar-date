@@ -1,9 +1,9 @@
-# Tmux Tet
+# Tmux Lunar Date
 
 ![](screenshot.png)
 
 Let's count the number of days until Tet holiday in order to make yourself more
-motivated.
+motivated, just kidding, this plugin will help you to show the current lunar date on your Tmux status line.
 
 This plugin is useful if:
 - you spend most of your time in Tmux and you want to view the current lunar date.
